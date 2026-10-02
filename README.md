@@ -56,3 +56,12 @@ Usuario
 SSH v2 con claves, Telnet apagado en producción, VPN IPsec/IKEv2 con AES-256-GCM y SHA-384, VLAN de gestión aislada (99), 802.1X en puertos de acceso, DHCP snooping + DAI, ACL entre VLAN, syslog central, MFA en firewall. Contra ataques apoyados en IA: límites de intentos y bloqueo temporal, detección de anomalías por registros, segmentación estricta de CCTV y VoIP, y parches al día.
 
 ## Simulador de caída de uplink
+
+git init && git branch -M main
+git add README.md && git commit -m "Agrega README con descripción y uso de FlexARWAN"
+git checkout -b develop
+git add FlexARWAN_V0.0.0.html && git commit -m "Agrega herramienta FlexARWAN V0.0.0 con calculadora de subredes"
+git add FlexARWAN_Informe_V0.0.0.docx && git commit -m "Agrega informe de laboratorio en Word"
+
+git remote add origin <URL-de-su-repositorio>
+git push -u origin main develop
